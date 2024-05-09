@@ -17,7 +17,8 @@ New Board Support
 New Peripheral Support
 ======================
 
-- Aibstein LR-D1 Long Range Radar Altimeter see https://github.com/ArduPilot/ardupilot_wiki/pull/5930
+- Ainstein LR-D1 Long Range Radar Altimeter see https://github.com/ArduPilot/ardupilot_wiki/pull/5930
+- NanoRadar MR72 Object Avoidance Radar see https://github.com/ArduPilot/ardupilot_wiki/pull/5938
 
 New Features
 ============
@@ -29,10 +30,14 @@ New Features
 [site wiki="plane"]
 - New parachute option, see https://github.com/ArduPilot/ardupilot_wiki/pull/5925
 - Option to report airspeed sensor offset calibration to gcs during boot, see https://github.com/ArduPilot/ardupilot_wiki/pull/5913
+- Switch to QLAND mode if  a failsafe occurs during VTOL takeoffs, see https://github.com/ArduPilot/ardupilot_wiki/pull/5941
+- Add ability to change the ON output voltage polarity for a Relay, see https://github.com/ArduPilot/ardupilot_wiki/pull/5950
 [/site]
 [site wiki="copter"]
 - Mission pausing via RC switch, see https://github.com/ArduPilot/ardupilot_wiki/pull/5919
 - Copter RTL Alt minimum reduced to 30cm, see https://github.com/ArduPilot/ardupilot_wiki/pull/5915
 [/site]
-[site wiki="blimp"]
+[site wiki="rover"]
+- Mission pausing via RC switch, see https://github.com/ArduPilot/ardupilot_wiki/pull/5919
+- Renamed Torqueedo Motor params and allowed for two motors, see - Mission pausing via RC switch, see https://github.com/ArduPilot/ardupilot_wiki/pull/5919
 [/site]
